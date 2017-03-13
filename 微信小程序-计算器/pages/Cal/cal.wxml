@@ -1,0 +1,33 @@
+<view class="content">
+<view class="result">{{result}}</view>
+  <view class="btnGroup">
+    <view class="item organge" bindtap="click" id="{{btn1}}">退格</view>
+    <view class="item organge" bindtap="click" id="{{btn2}}">清屏</view>
+    <view class="item organge" bindtap="click" id="{{btn3}}">+/-</view>
+    <view class="item organge" bindtap="history" id="{{btn4}}">历史</view>
+  </view>
+  <view class="btnGroup">
+    <view class="item blue" bindtap="click"id="{{btn5}}">9</view>
+    <view class="item blue" bindtap="click"id="{{btn6}}">8</view>
+    <view class="item blue" bindtap="click"id="{{btn7}}">7</view>
+    <view class="item organge" bindtap="click"id="{{btn8}}">+</view>
+  </view>
+  <view class="btnGroup">
+    <view class="item blue" bindtap="click"id="{{btn9}}">6</view>
+    <view class="item blue" bindtap="click"id="{{btn10}}">5</view>
+    <view class="item blue" bindtap="click"id="{{btn11}}">4</view>
+    <view class="item organge" bindtap="click"id="{{btn12}}">-</view>
+  </view>
+  <view class="btnGroup">
+    <view class="item blue" bindtap="click"id="{{btn13}}">3</view>
+    <view class="item blue" bindtap="click"id="{{btn14}}">2</view>
+    <view class="item blue" bindtap="click"id="{{btn15}}">1</view>
+    <view class="item organge" bindtap="click"id="{{btn16}}">×</view>
+  </view>
+  <view class="btnGroup">
+    <view class="item blue" bindtap="click"id="{{btn17}}">0</view>
+    <view class="item blue" bindtap="click"id="{{btn18}}">.</view>
+    <view class="item organge" bindtap="click"id="{{btn19}}">=</view>
+    <view class="item organge" bindtap="click"id="{{btn20}}">÷</view>
+  </view>
+</view>

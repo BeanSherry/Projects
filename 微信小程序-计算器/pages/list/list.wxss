@@ -1,0 +1,26 @@
+.content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background-image: url("../assets/img/cal1.jpg");
+  background-repeat: repeat;
+}
+
+.item {
+  width: 700rpx;
+  border-radius: 5px;
+  line-height: 100rpx;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.3);
+  text-align: center;
+  min-height: 100rpx;
+  margin-top:20rpx;
+  padding-left:25rpx;
+  padding-right: 10rpx;
+  margin-bottom: 3rpx;
+  margin-right: 10rpx;
+  color: blanchedalmond;
+  background: orange;
+}

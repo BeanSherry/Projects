@@ -1,0 +1,5 @@
+<view class="content">
+  <block wx:for="{{Cal_logs}}" >
+    <view class="item">{{item}}</view>
+  </block>
+</view>
