@@ -1,0 +1,15 @@
+<view class="search">
+<input type="text" placeholder="请输入影片名称"maxlength="10"bindinput="bindKeyInput"/>
+ <button bindtap="searchMovies">搜索</button>
+</view>
+<view class="search-title">你输入的是：{{inputValue}}</view>
+<loading hidden="{{hiddenLoading}}">正在加载</loading>
+<view class="content">
+  <import src="../template/template.wxml" />
+ 
+  <view class="movies">
+    <block wx:for="{{movies}}" wx:key="">
+      <template is="movies-item" data="{{item}}" />
+    </block>
+  </view>
+</view>

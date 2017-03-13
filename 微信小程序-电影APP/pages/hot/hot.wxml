@@ -1,0 +1,9 @@
+<view class="content">
+  <import src="../template/template.wxml" />
+  <loading hidden="{{hiddenLoading}}">正在加载</loading>
+  <view class="movies">
+    <block wx:for="{{movies}}" wx:key="">
+      <template is="movies-item" data="{{item}}" />
+    </block>
+  </view>
+</view>

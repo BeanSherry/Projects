@@ -1,0 +1,18 @@
+<template name="movies-item">
+  <view class="movies-item" id="{{item.id}}" bindtap="getInfo">
+    <view class="poster">
+      <image src="{{item.images.large}}" />
+    </view>
+    <view class="movies-info">
+      <!--<text>{{"影片名称：{{item.title}}\n 导演：{{item.directors[0].name}}\n 主演{{item.casts[0].name}}\n 分类：{{item.genres[0]}}"}}</text>-->
+      <view class="movie-name">影片名称：{{item.title}}</view>
+      <view class="movie-directors">导演： <block wx:for="{{item.directors}}" wx:for-item="directors">{{directors.name}} </block></view>
+      <view class="movie-casts">主演: <block wx:for="{{item.casts}}" wx:for-item="casts">{{casts.name}} </block></view>
+      <view class="movie-genres">影片分类： <block wx:for="{{item.genres}}" wx:for-item="genres">{{genres}} </block></view>
+     
+      
+    </view>
+   
+  </view>
+   <view class="hr"></view>
+</template>

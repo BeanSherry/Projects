@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/movies/movies",
+    "pages/hot/hot",
+    "pages/search/search",
+    "pages/info/info"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "电影APP",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color":"white",
+    "backgroundColor":"#000",
+    "selectedColor":"yellowgreen",
+    "list": [{
+      "pagePath": "pages/movies/movies",
+      "text": "影院热映"
+      
+    }, {
+      "pagePath": "pages/hot/hot",
+      "text": "电影推荐"
+    }, {
+      "pagePath": "pages/search/search",
+      "text": "查询电影"
+    }]
+  }
+}

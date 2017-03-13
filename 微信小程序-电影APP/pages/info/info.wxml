@@ -1,0 +1,19 @@
+<view class="info-image">
+  <image src="{{info.images.large}}"></image>
+  <view class="info-text">
+    <text class="title">{{title}}
+    \n{{genres}}
+    \n{{year}}年 {{countries}}</text> 
+  </view>
+</view>
+<view class="hr"></view>
+<view class="summary">
+<text>影片简介：\n</text>
+{{summary}}
+</view>
+<view class="actor-image">
+<view>
+
+
+</view>
+</view>
