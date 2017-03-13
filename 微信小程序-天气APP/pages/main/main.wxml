@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="content">
+    <view class="city">{{city}}</view>
+    <view class="weather">{{weather}}</view>
+    <view class="temp">{{temp}}℃</view>
+    <view class="ganmao">{{ganmao}}</view>
+  </view>
+  <import src="../template/template.wxml" />
+  <view class="future">
+   <block wx:for="{{future}}" wx:key="future-itemId">
+    <template is="future-item" data="{{item}}"/>
+  </block>
+  </view>
+</view>

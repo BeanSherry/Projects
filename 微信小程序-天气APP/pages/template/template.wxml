@@ -1,0 +1,10 @@
+<template name="future-item">
+  <view class="future-item">
+    <view class="item-left">
+      <view class="left-top">{{item.type}}</view>
+      <view class="left-bottom">{{item.date}}</view>
+    </view>
+    <view class="item-center">{{item.fengxiang}}-{{item.fengli}}</view>
+      <view class="item-rigth">{{item.high}}/{{item.low}}</view>
+  </view>
+</template>

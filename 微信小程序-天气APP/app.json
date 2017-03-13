@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/main/main",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "天气APP",
+    "navigationBarTextStyle":"black"
+  }
+}
